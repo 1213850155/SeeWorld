@@ -13,6 +13,8 @@
 		C20B3FCA1BCF92DC00C71E9A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = C20B3FC81BCF92DC00C71E9A /* LaunchScreen.xib */; };
 		C20B3FD61BCF92DC00C71E9A /* SeeWorldTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C20B3FD51BCF92DC00C71E9A /* SeeWorldTests.m */; };
 		C20B3FF41BCF940200C71E9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C20B3FE51BCF940200C71E9A /* AppDelegate.m */; };
+		C20B3FFB1BCFAC7F00C71E9A /* RecommendNewsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C20B3FFA1BCFAC7F00C71E9A /* RecommendNewsTableViewController.m */; };
+		C20B3FFE1BCFACAF00C71E9A /* RecommendNewsTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C20B3FFD1BCFACAF00C71E9A /* RecommendNewsTableViewCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +44,10 @@
 		C20B3FF01BCF940200C71E9A /* KEYHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KEYHeader.h; sourceTree = "<group>"; };
 		C20B3FF11BCF940200C71E9A /* URLHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = URLHeader.h; sourceTree = "<group>"; };
 		C20B3FF81BCFA1FA00C71E9A /* NewsPCH.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewsPCH.pch; sourceTree = "<group>"; };
+		C20B3FF91BCFAC7F00C71E9A /* RecommendNewsTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RecommendNewsTableViewController.h; sourceTree = "<group>"; };
+		C20B3FFA1BCFAC7F00C71E9A /* RecommendNewsTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RecommendNewsTableViewController.m; sourceTree = "<group>"; };
+		C20B3FFC1BCFACAF00C71E9A /* RecommendNewsTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RecommendNewsTableViewCell.h; path = SeeWorld/Source/CodeClass/Controller/RecommendNewsTableViewCell.h; sourceTree = SOURCE_ROOT; };
+		C20B3FFD1BCFACAF00C71E9A /* RecommendNewsTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RecommendNewsTableViewCell.m; path = SeeWorld/Source/CodeClass/Controller/RecommendNewsTableViewCell.m; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -226,6 +232,8 @@
 		C20B3FF51BCF943E00C71E9A /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				C20B3FF91BCFAC7F00C71E9A /* RecommendNewsTableViewController.h */,
+				C20B3FFA1BCFAC7F00C71E9A /* RecommendNewsTableViewController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -240,6 +248,8 @@
 		C20B3FF71BCF943E00C71E9A /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				C20B3FFC1BCFACAF00C71E9A /* RecommendNewsTableViewCell.h */,
+				C20B3FFD1BCFACAF00C71E9A /* RecommendNewsTableViewCell.m */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -345,7 +355,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				C20B3FF41BCF940200C71E9A /* AppDelegate.m in Sources */,
+				C20B3FFE1BCFACAF00C71E9A /* RecommendNewsTableViewCell.m in Sources */,
 				C20B3FBC1BCF92DC00C71E9A /* main.m in Sources */,
+				C20B3FFB1BCFAC7F00C71E9A /* RecommendNewsTableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
