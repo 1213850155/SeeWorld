@@ -41,6 +41,7 @@
 		C20B3FEF1BCF940200C71E9A /* IMPHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IMPHeader.h; sourceTree = "<group>"; };
 		C20B3FF01BCF940200C71E9A /* KEYHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KEYHeader.h; sourceTree = "<group>"; };
 		C20B3FF11BCF940200C71E9A /* URLHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = URLHeader.h; sourceTree = "<group>"; };
+		C20B3FF81BCFA1FA00C71E9A /* NewsPCH.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewsPCH.pch; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,6 +88,7 @@
 				C20B3FC61BCF92DC00C71E9A /* Images.xcassets */,
 				C20B3FC81BCF92DC00C71E9A /* LaunchScreen.xib */,
 				C20B3FB91BCF92DC00C71E9A /* Supporting Files */,
+				C20B3FF81BCFA1FA00C71E9A /* NewsPCH.pch */,
 			);
 			path = SeeWorld;
 			sourceTree = "<group>";
@@ -469,6 +471,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/SeeWorld/NewsPCH.pch";
 				INFOPLIST_FILE = SeeWorld/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -479,6 +483,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/SeeWorld/NewsPCH.pch";
 				INFOPLIST_FILE = SeeWorld/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -538,6 +544,7 @@
 				C20B3FDB1BCF92DC00C71E9A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C20B3FDC1BCF92DC00C71E9A /* Build configuration list for PBXNativeTarget "SeeWorldTests" */ = {
 			isa = XCConfigurationList;
@@ -546,6 +553,7 @@
 				C20B3FDE1BCF92DC00C71E9A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
